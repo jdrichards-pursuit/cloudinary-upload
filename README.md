@@ -18,4 +18,4 @@ Then use the code and it should work.
 
 [Admin API Reference](https://cloudinary.com/documentation/admin_api)
 
-[FormData Array](https://developer.mozilla.org/en-US/docs/Web/API/FormData/values)
+[FormData Array](https://developer.mozilla.org/en-US/docs/Web/API/FormData/values) - your data arrives in a FormData array because you chose 'file' for the `<input type="file"/>` You will append your cloud and upload preset to this array before uploading to cloudinary.
